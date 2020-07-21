@@ -7,10 +7,11 @@ import reactBootstrapScreenshot from "../../assets/images/reactBootstrapScreensh
 
 const Home = (props) => {
     return (
+        <div className={s.homeWrapper}>
         <Container>
-            <h2 className="text-center mt-4 mb-4">Learning projects</h2>
-            <CardDeck className="mb-4 ">
-                <Row>
+            <h2 className="text-center mt-5 pb-4">Learning projects</h2>
+            <CardDeck className=" mt-3">
+                <Row className="mb-3">
 
                     <Col xl={6} lg={6} md={12} sm={12} className="d-flex flex-column pb-md-0 pb-sm-5">
                         <Card bg="light" border="info" className="shadow">
@@ -57,7 +58,7 @@ const Home = (props) => {
 
                                 <CardGroup className="d-flex justify-content-center mt-auto">
                                     <Button
-                                        variant="primary"
+                                        variant="info"
                                         href="https://social.reactlearning.ru"
                                         target="_blank">Social network</Button>
                                 </CardGroup>
@@ -66,7 +67,7 @@ const Home = (props) => {
                     </Col>
 
                     <Col xl={6} lg={6} md={12} sm={12} className=" d-flex flex-column">
-                        <Card bg="light" border="primary" className="shadow">
+                        <Card bg="light" border="info" className="shadow">
                             <Card.Img src={reactBootstrapScreenshot}
                                       alt="React Social"
                             />
@@ -89,7 +90,7 @@ const Home = (props) => {
                                 <Card.Text> React bootstrap | formik | yup | react-router-dom | Hooks | Git</Card.Text>
 
                                 <div className="d-flex justify-content-center mt-auto"><Button
-                                    variant="primary"
+                                    variant="info"
                                     href="https://bootstrap.reactlearning.ru"
                                     target="_blank">React bootstrap training</Button></div>
 
@@ -102,6 +103,7 @@ const Home = (props) => {
 
             </CardDeck>
         </Container>
+        </div>
     );
 }
 

@@ -2,11 +2,12 @@ import React from 'react';
 import { Container, Nav, Navbar} from 'react-bootstrap';
 import reactlogo from "../../assets/images/reactlogo.svg"
 import {Link} from "react-router-dom";
+import s from "./Header.module.css"
 
 const Header = (props) => {
     return (
-        <>
-            <Navbar collapseOnSelect expand="md"  bg="light" variant="light">
+        <div className={s.headerWrapper}>
+            <Navbar collapseOnSelect expand="md"  bg="info" variant="dark">
                 <Container>
                     <Navbar.Brand href="/">
                         <img src={reactlogo}
@@ -26,7 +27,7 @@ const Header = (props) => {
                 </Container>
             </Navbar>
 
-        </>
+        </div>
     );
 }
 
