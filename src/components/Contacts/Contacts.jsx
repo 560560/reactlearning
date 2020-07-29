@@ -1,11 +1,11 @@
 import React from 'react';
-import s from "./Contacts.module.css"
+import "./Contacts.css"
 import {Button, Container, Card, Row, Col} from 'react-bootstrap';
 
 
 const Contacts = (props) => {
     return (
-        <div className={s.contactsWrapper}>
+        <div>
             <Container className="justify-content-center">
                 <h2 className="text-center mt-5 mb-5">My contacts</h2>
                 <Row className="justify-content-center">

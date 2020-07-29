@@ -35,8 +35,7 @@ const Home = (props) => {
                                 <Card.Text className="mt-2">Additional tools and features used in the
                                     project:</Card.Text>
                                 <Card.Text>axios(REST API) | formik | yup | redux | react-redux | redux-thunk |
-                                    react-router-dom
-                                    | reselect | Hooks | HOCs | React Context | Lazy loading | CSS Modules |
+                                    react-router-dom | reselect | Hooks | HOCs | React Context | Lazy loading | CSS Modules |
                                     Git</Card.Text>
 
 
@@ -87,12 +86,12 @@ const Home = (props) => {
                                 </ListGroup>
                                 <Card.Text className="mt-2"> Additional tools and features used in the
                                     project:</Card.Text>
-                                <Card.Text> React bootstrap | formik | yup | react-router-dom | Hooks | Git</Card.Text>
+                                <Card.Text> React bootstrap | formik | yup | redux | react-redux | redux-thunk | react-router-dom | Hooks | HOCs | Git</Card.Text>
 
                                 <div className="d-flex justify-content-center mt-auto"><Button
                                     variant="info"
                                     href="https://bootstrap.reactlearning.ru"
-                                    target="_blank">React bootstrap training</Button></div>
+                                    target="_blank">React bootstrap</Button></div>
 
 
                             </Card.Body>
