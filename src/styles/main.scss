@@ -1,0 +1,107 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+
+.listItem {
+  transition: 0.3s;
+  border-bottom: 3px solid #DFDFDF;
+
+}
+
+.listItem:hover {
+  transition: .3s;
+  z-index: 1;
+  cursor: pointer;
+  border-bottom: 3px solid #17A2B8;
+}
+
+.techDescription {
+  line-height: 2em;
+}
+
+
+
+
+
+
+@media (min-width: 1700px) {
+  .col-xl-5{
+    flex: 0 0 33.3%;
+    max-width: 33.3%;
+    padding:0 15px;
+  }
+  .homeContainer {
+    max-width: 90%;
+  }
+
+
+}
+
+@media (min-width: 1611px) and (max-width: 1699px) {
+  .col-xl-5{
+    flex: 0 0 33.3%;
+    max-width: 33.3%;
+    padding:0;
+  }
+  .col-xl-4 {
+    padding:0;
+    & .list-group-item{
+      padding: 10px 0;
+      margin: 0 10px;
+    }
+  }
+  .homeContainer {
+    max-width: 90%;
+  }
+
+}
+
+@media (min-width: 1367px) and (max-width: 1610px) {
+  .col-xl-5{
+    flex: 0 0 33.3%;
+    max-width: 33.3%;
+    padding:0;
+  }
+  .col-xl-4 {
+    padding:0;
+    & .list-group-item{
+      padding: 10px 0;
+      margin: 0 10px;
+    }
+  }
+  .homeContainer {
+    max-width: 95%;
+  }
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1366px) {
+  .col-xl-5{
+    flex: 0 0 33.3%;
+    max-width: 33.3%;
+    padding:0;
+  }
+  .col-xl-4 {
+    flex: 0 0 50.0%;
+    max-width: 50.0%;
+    padding:0;
+    & .list-group-item{
+      padding: 10px 0;
+      margin: 0 10px;
+    }
+  }
+  .homeContainer {
+    max-width: 90%;
+  }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .col-xl-5{
+    flex: 0 0 33.3%;
+    max-width: 33.3%;
+    padding:10px;
+  }
+}
