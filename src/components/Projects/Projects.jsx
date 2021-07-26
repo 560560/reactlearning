@@ -35,7 +35,7 @@ const Projects = () => {
                     sass-loader | React Context | react-router-dom | react-router-last-location | git</Card.Text>
 
                   <CardGroup className="d-flex justify-content-center mt-auto">
-                    <Button variant="info" href="http://starwars.gacv.ru" target="_blank">Star Wars</Button>
+                    <Button variant="info" href="https://starwars.gacv.ru" target="_blank">Star Wars</Button>
                   </CardGroup>
 
                 </Card.Body>
