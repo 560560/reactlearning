@@ -1,0 +1,56 @@
+.contact {
+    margin-bottom: 20px;
+    & > div > div  {
+        font-size: 1.15em;
+        margin: 0;
+    }
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+}
+
+.link {
+    color: #1ca4bb;
+    text-decoration: none;
+    transition: color 150ms ease-in-out;
+    &:hover {
+        color: inherit;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .contact {
+        margin-bottom: 20px;
+        & > div > div  {
+            font-size: 1em;
+        }
+    }
+
+    .card-text {
+        font-size: .9rem;
+    }
+
+    .card-body {
+        padding: .6rem
+    }
+}
+
+
+
+@media (max-width: 340px) {
+    .contact {
+        margin-bottom: 20px;
+        & > div > div  {
+            font-size: 1.1em;
+        }
+    }
+    .card-text {
+        font-size: .9rem;
+    }
+
+    .card-body {
+        padding: .6rem
+    }
+}

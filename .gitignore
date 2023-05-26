@@ -29,3 +29,6 @@ yarn-error.log*
 /.idea/vcs.xml
 /.idea/watcherTasks.xml
 /.idea/workspace.xml
+/.idea/.gitignore
+/.idea/prettier.xml
+/.idea/codeStyles/Project.xml
