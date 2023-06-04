@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Container, Card, CardDeck, CardGroup, ListGroup, Row, Col } from 'react-bootstrap';
 import leasingScreenshot from '../../assets/images/leasingScreenshot.png';
 import starwarsScreenshot from '../../assets/images/starwarsScreenshot.png';
-import taskListScreenshot from '../../assets/images/taskListScreenshot.png';
+import messagesScreenshot from '../../assets/images/messagesScreenshot.png';
 import ReactPlayer from 'react-player';
 import rn from '../../assets/video/rn.mp4';
 
@@ -111,15 +111,15 @@ const Projects = () => {
               className="d-flex flex-column pb-md-0 pb-sm-5 project"
             >
               <Card bg="light" border="info" className="shadow mb-4">
-                <Card.Img src={taskListScreenshot} alt="React Social" />
+                <Card.Img src={messagesScreenshot} alt="React Social" />
                 <Card.Body className="d-flex flex-column">
-                  <Card.Title>Task List</Card.Title>
+                  <Card.Title>Messages</Card.Title>
                   <Card.Text className="mt-3">
                     In this project I used the following technologies:
                   </Card.Text>
                   <ListGroup variant="flush">
                     <Row className="text-center font-weight-bold justify-content-center">
-                      {['HTML5', 'JavaScript', 'React'].map((item, i) => (
+                      {['HTML5', 'TypeScript', 'React'].map((item, i) => (
                         <Col
                           key={i}
                           className="col-xl-5 col-lg-6 col-md-4 col-sm-4 col-12 pb-lg-3 pb-md-3 pb-sm-3 pb-2"
@@ -135,13 +135,13 @@ const Projects = () => {
                   </Card.Text>
                   <Card.Text className="techDescription">
                     {' '}
-                    react bootstrap | formik | yup | redux | react-redux | redux-thunk |
-                    react-router-dom | hooks | HOCs | SCSS | git
+                    ant design | redux | react-redux | redux-thunk |
+                    react-router-dom | react-infinite-scroll-component | dayjs | hooks | SCSS | git
                   </Card.Text>
 
                   <div className="d-flex justify-content-center mt-auto">
-                    <Button variant="info" href="https://tasklist.gacv.ru" target="_blank">
-                      Task list
+                    <Button variant="info" href="https://messages.gacv.ru" target="_blank">
+                      Messages
                     </Button>
                   </div>
                 </Card.Body>
